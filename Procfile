@@ -1,2 +1,2 @@
-worker:node index.js,
-worker:node backend/app.js
+web:node index.js,
+web:node backend/app.js
