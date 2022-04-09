@@ -15,7 +15,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::house.house",
-      "inversedBy": "categories"
+      "mappedBy": "categories"
     },
     "Category": {
       "type": "string"

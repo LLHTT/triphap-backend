@@ -4,7 +4,8 @@
   "info": {
     "singularName": "house",
     "pluralName": "houses",
-    "displayName": "House"
+    "displayName": "House",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,16 +38,6 @@
     },
     "Rent": {
       "type": "integer"
-    },
-    "Image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     },
     "Description": {
       "type": "richtext"
